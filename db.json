@@ -1,0 +1,303 @@
+{
+    "users":[
+        {
+            "id":1,
+            "username":"0334188898",
+            "password":"123456",
+            "accessRights":true,
+            "isCer":false,
+            "producer":{
+                "address":"579/10/4 TPHCM",
+                "ownerName":"Thắng",
+                "phone":"0334188898",
+                "city": "HCM"
+            },
+            "certificator":null
+        },
+        {
+            "id":2,
+            "username":"0334188888",
+            "password":"123456",
+            "accessRights":true,
+            "isCer":false,
+            "producer":{
+                "address":"579/10/4 TPHCM",
+                "ownerName":"Thắng",
+                "phone":"0334188888",
+                "city": "HCM"
+            },
+            "certificator":null
+        },
+        {
+            "id":3,
+            "username":"0334188666",
+            "password":"123456",
+            "accessRights":true,
+            "isCer":true,
+            "producer":null,
+            "certificator":{
+                "address": "Quảng Ninh",
+                "certficationScope": "Trái cây",
+                "phoneNumber": "0334188666",
+                "email":"thang@gmail.com",
+                "locatorCode":"12777"
+            }
+        },
+        {
+            "id":4,
+            "username":"0331485426",
+            "password":"123456",
+            "accessRights":false,
+            "isCer":false,
+            "producer":{
+                "address":"579 Quảng Ngãi",
+                "ownerName":"Đức",
+                "phone":"0331485426",
+                "city": "Quảng Ngãi"
+            },
+            "certificator":null
+        },
+        {
+            "id":5,
+            "username":"0988663215",
+            "password":"123456",
+            "accessRights":false,
+            "isCer":false,
+            "producer":{
+                "address":"2701/10 HT12 TPHCM",
+                "ownerName":"Vũ",
+                "phone":"0988663215",
+                "city": "HCM"
+            },
+            "certificator":null
+        },
+        {
+            "id":6,
+            "username":"033696541",
+            "password":"123456",
+            "accessRights":false,
+            "isCer":true,
+            "producer":null,
+            "certificator":{
+                "address": "Quảng Ninh",
+                "certficationScope": "Rau củ quả",
+                "phoneNumber": "033696541",
+                "email":"thangquangninh@gmail.com",
+                "locatorCode":"12887"
+            }
+        }
+
+    ],
+    "blocks":[
+        {
+            "id":1,
+            "status": false,
+            "action": "Add",
+            "product":{
+                "id":1,
+                "productName": "Rau dền",
+                "productCode": "80012475",
+                "vietgapCode": "VG0011",
+                "certificationDate": "16/10/2022",
+                "address": "579/10/4 TPHCM",
+                "phone": "0334188898",
+                "isExpired": false,
+                "status": "Due"
+            },
+            "user":{
+                "id":1,
+                "username":"0334188898",
+                "password":"123456",
+                "accessRights":true,
+                "isCer":false,
+                "producer":{
+                    "address":"579/10/4 TPHCM",
+                    "ownerName":"Thắng",
+                    "phone":"0334188898",
+                    "city": "HCM"
+                },
+                "certificator":null
+            }
+        },
+        {
+            "id":2,
+            "status": false,
+            "action": "Add",
+            "product":{
+                "id":3,
+                "productName": "Rau Má",
+                "productCode": "80012477",
+                "vietgapCode": "VG0013",
+                "certificationDate": "16/10/2022",
+                "address": "579/10/4 TPHCM",
+                "phone": "0334188898",
+                "isExpired": false,
+                "status": "Due"
+            },
+            "user":{
+                "id":1,
+                "username":"0334188898",
+                "password":"123456",
+                "accessRights":true,
+                "isCer":false,
+                "producer":{
+                    "address":"579/10/4 TPHCM",
+                    "ownerName":"Thắng",
+                    "phone":"0334188898",
+                    "city": "HCM"
+                },
+                "certificator":null
+            }
+        },
+        {
+            "id":3,
+            "status": false,
+            "action": "Add",
+            "product":{
+                "id":5,
+                "productName": "Lê Hàn Quốc",
+                "productCode": "80012479",
+                "vietgapCode": "VG0015",
+                "certificationDate": "16/10/2021",
+                "address": "579 Cần Thơ",
+                "phone": "0334188888",
+                "isExpired": true,
+                "status": "OutOfDate"
+            },
+            "user":{
+                "id":2,
+                "username":"0334188888",
+                "password":"123456",
+                "accessRights":true,
+                "isCer":false,
+                "producer":{
+                    "address":"579/10/4 TPHCM",
+                    "ownerName":"Thắng",
+                    "phone":"0334188888",
+                    "city": "HCM"
+                },
+                "certificator":null
+            }
+        },
+        {
+            "id":4,
+            "status": false,
+            "action": "Add",
+            "product":{
+                "id":7,
+                "productName": "Xoài Thái",
+                "productCode": "80012481",
+                "vietgapCode": "VG0017",
+                "certificationDate": "16/10/2021",
+                "address": "579 Nhà Bè",
+                "phone": "0334188778",
+                "isExpired": true,
+                "status": "OutOfDate"
+            },
+            "user":{
+                "id":3,
+                "username":"0334188666",
+                "password":"123456",
+                "accessRights":true,
+                "isCer":true,
+                "producer":null,
+                "certificator":{
+                    "address": "Quảng Ninh",
+                    "certficationScope": "Trái cây",
+                    "phoneNumber": "0334188666",
+                    "email":"thang@gmail.com",
+                    "locatorCode":"12777"
+                }
+            }
+        },
+        {
+            "id":5,
+            "status": false,
+            "action": "Add",
+            "product":{
+                "id":9,
+                "productName": "Sầu Riêng",
+                "productCode": "80012483",
+                "vietgapCode": "VG0019",
+                "certificationDate": "16/10/2022",
+                "address": "579 Nhà Bè",
+                "phone": "0334188778",
+                "isExpired": false,
+                "status": "Due"
+            },
+            "user":{
+                "id":3,
+                "username":"0334188666",
+                "password":"123456",
+                "accessRights":true,
+                "isCer":true,
+                "producer":null,
+                "certificator":{
+                    "address": "Quảng Ninh",
+                    "certficationScope": "Trái cây",
+                    "phoneNumber": "0334188666",
+                    "email":"thang@gmail.com",
+                    "locatorCode":"12777"
+                }
+            }
+        }
+
+    ],
+    "products":[
+        {
+            "id":2,
+            "productName": "Rau Muống",
+            "productCode": "80012476",
+            "vietgapCode": "VG0012",
+            "certificationDate": "16/10/2022",
+            "address": "579/10/4 TPHCM",
+            "phone": "0334188898",
+            "isExpired": false,
+            "status": "Due"
+        },
+        {
+            "id":4,
+            "productName": "Táo mini",
+            "productCode": "80012478",
+            "vietgapCode": "VG0014",
+            "certificationDate": "10/10/2021",
+            "address": "10/4 TPHCM",
+            "phone": "0348966986",
+            "isExpired": true,
+            "status": "OutOfDate"
+        },
+        {
+            "id":6,
+            "productName": "Nho mẫu đơn",
+            "productCode": "80012480",
+            "vietgapCode": "VG0016",
+            "certificationDate": "10/10/2022",
+            "address": "10/4 Hà Nội",
+            "phone": "0987885633",
+            "isExpired": false,
+            "status": "Due"
+        },
+        {
+            "id":8,
+            "productName": "Cherry Mỹ",
+            "productCode": "80012482",
+            "vietgapCode": "VG0018",
+            "certificationDate": "10/10/2022",
+            "address": "10/4 Hà Nội",
+            "phone": "0987885633",
+            "isExpired": false,
+            "status": "Due"
+        },
+        {
+            "id":10,
+            "productName": "Cherry Đức",
+            "productCode": "80012484",
+            "vietgapCode": "VG0020",
+            "certificationDate": "10/10/2021",
+            "address": "10/4 Hà Nam",
+            "phone": "0987885666",
+            "isExpired": true,
+            "status": "OutOfDate"
+        }
+    ]
+}
